@@ -1,11 +1,20 @@
-@import './abstracts/fonts';
-@import './abstracts/mixins';
-@import './abstracts/variables';
+@use "./abstracts/fonts";
+@use "./abstracts/mixins";
+@use "./abstracts/variables";
 
-@import './base/typography';
+@use "./base/base";
+@use "./base/typography";
 
-@import './components/container';
-@import './components/logo';
+@use './utilities/container';
 
-@import './layouts/header';
-@import './layouts/navigation';
+@use './components/buttons';
+@use './components/card';
+@use './components/logo';
+@use './components/card-bar';
+@use './components/card-option';
+
+@use './layouts/header';
+@use './layouts/card-hero';
+@use './layouts/card-numbers';
+@use './layouts/navigation';
+@use "./layouts/card-about";

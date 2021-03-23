@@ -1,9 +1,14 @@
-nav {
-  display: flex;
-  align-items: center;
-  padding-top: 2rem;
+@use "../abstracts/variables" as *;
 
-  .menu {
-    display: none;
+nav {
+  padding-top: 2rem;
+  background: linear-gradient(rgba($simple-black, 0.7), rgba($dark-gray, 0));
+
+  .container {
+    display: flex;
+    align-items: center;
+    .menu {
+      display: none;
+    }
   }
 }

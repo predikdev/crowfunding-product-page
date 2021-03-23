@@ -1,0 +1,15 @@
+@use "../abstracts/variables" as *;
+.card__about {
+  margin-top: 2rem;
+
+  .card__about--title {
+    font-size: $font-xl;
+    padding: 1rem 0;
+  }
+  .card__about--description {
+    padding: 1rem 0;
+    font-size: $font-small;
+    color: rgba($dark-gray, 0.8);
+    line-height: 1.8;
+  }
+}

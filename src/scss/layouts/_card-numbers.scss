@@ -1,0 +1,11 @@
+@use "../abstracts/variables" as *;
+
+.card__numbers {
+  hr {
+    width: 10rem;
+    margin: 1rem auto;
+    border: 0;
+    height: 1px;
+    background-color: rgba($dark-gray, 0.4);
+  }
+}

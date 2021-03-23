@@ -1,0 +1,17 @@
+.card__hero {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: -5rem;
+  &--image {
+    position: absolute;
+    top: -3rem;
+  }
+  &--buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}

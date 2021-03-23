@@ -1,0 +1,16 @@
+@use "../abstracts/variables" as *;
+
+.btn {
+  border: none;
+  border-radius: 10rem;
+  background-color: $light-cyan;
+  color: $white;
+  font-family: 'Commissioner', sans-serif;
+  font-weight: 700;
+}
+.btn-large {
+  padding: 1.5rem 3.5rem;
+}
+.btn-small {
+  padding: 1.5rem 3rem;
+}

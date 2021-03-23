@@ -1,0 +1,48 @@
+@use "../abstracts/variables" as *;
+
+.card__option {
+  position: relative;
+  margin: 2rem 0;
+  padding: 2rem;
+  border-radius: 1rem;
+  border: 0.1rem solid rgba($dark-gray, 0.3);
+
+  .card__option--title {
+    font-size: $font-small;
+  }
+  .card__option--subtitle {
+    padding: 0.5rem 0;
+    font-size: $font-small;
+    font-weight: 400;
+    color: $light-cyan;
+  }
+  .card__option--description {
+    padding: 2rem 0;
+    font-size: $font-small;
+    color: rgba($dark-gray, 0.8);
+    line-height: 1.8;
+  }
+  .card__option--stock {
+    display: flex;
+    align-items: center;
+
+    h1 {
+      font-size: $font-xxl;
+    }
+    p {
+      margin-left: 1rem;
+      font-size: $font-small;
+      color: rgba($dark-gray, 0.8);
+    }
+  }
+  .btn {
+    margin-top: 2rem;
+  }
+}
+.card__option:last-child {
+  opacity: 0.5;
+
+  .btn {
+    background-color: $dark-gray;
+  }
+}
